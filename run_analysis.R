@@ -3,7 +3,7 @@ library(dplyr)
 ################################################################################################
 run_analysis <- function() {
 ################################################################################################
-# Read in test and features datasets and combine into one dataset
+# Read in test and train datasets and combine into one dataset
     testDataRaw <- tbl_df(read.table("UCI HAR Dataset/test/X_test.txt"))
     testSub <- tbl_df(read.table("UCI HAR Dataset/test/subject_test.txt"))
     testAct <- tbl_df(read.table("UCI HAR Dataset/test/Y_test.txt"))

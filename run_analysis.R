@@ -24,11 +24,12 @@ run_analysis <- function() {
     varNamesUnique <- make.names(varNames, unique = TRUE)
     colnames(fullData) <- c("Subject", "Activity", varNamesUnique)
 
-# Create 3 data frames for subject & activity, measurements containing "mean", and containing "std"
+# Create 3 data frames: subject & activity columns, measurements containing "mean", and measurements containing "std"
     subAndAct <- select(fullData, Subject:Activity)
     meanDat <- select(fullData, contains("mean"))
     stdDat <- select(fullData, contains("std"))
 
+# Combine the 3 data frames
     subDat <- cbind(subAndAct, meanDat, stdDat)
 
 # Group data by subject and activity and get a mean score for each subject for each activity

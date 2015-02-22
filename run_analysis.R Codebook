@@ -8,14 +8,18 @@ Raw data: 7 datasets
 7. data for each variable measured in the training and test data tables
  
 
-Processed data: One summarized table with the mean scores for all "mean" and "standard deviation" measurements, one mean score for each of the 30 subjects performing each of the six activities (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING). Column 1 is an idendifier for each subject. Column two indicates the activity being performed with each activity represented as follows:
+Processed data: One summarized table with the mean scores for all "mean" and "standard deviation" measurements, one mean score
+for each of the 30 subjects performing each of the six activities (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING,
+STANDING, LAYING). Column 1 is an idendifier for each subject. Column two indicates the activity being performed with each
+activity represented as follows:
 1 - WALKING
 2 - WALKING_UPSTAIRS
 3 - WALKING_DOWNSTAIRS
 4 - SITTING
 5 - STANDING
 6 - LAYING
-The remaining columns contain data for the means of 86 measurements of 3-axial linear acceleration and 3-axial angular velocity measurements.
+The remaining columns contain data for the means of 86 measurements of 3-axial linear acceleration and 3-axial angular velocity
+measurements.
 
 Full list of columns present in the final data table:
 V1 - Subject

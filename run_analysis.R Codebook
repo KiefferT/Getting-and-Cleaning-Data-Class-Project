@@ -1,4 +1,4 @@
-Raw data: 4 datasets
+Raw data: 7 datasets
 1. training data containing measurements for subjects and activities
 2. data containing the subjects for each measurement in the training data
 3. data containing the activities for each measurment in the training data
@@ -8,4 +8,13 @@ Raw data: 4 datasets
 7. data for each variable measured in the training and test data tables
  
 
-Processed data: One summarized table with the mean scores for all "mean" and "standard deviation" measurements, one mean score for each of the 30 subjects performing each of the six activities (
+Processed data: One summarized table with the mean scores for all "mean" and "standard deviation" measurements, one mean score for each of the 30 subjects performing each of the six activities (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING). Column 1 is an idendifier for each subject. Column two indicates the activity being performed with each activity represented as follows:
+1 - WALKING
+2 - WALKING_UPSTAIRS
+3 - WALKING_DOWNSTAIRS
+4 - SITTING
+5 - STANDING
+6 - LAYING
+The remaining columns contain data for the means of 86 measurements of 
+
+

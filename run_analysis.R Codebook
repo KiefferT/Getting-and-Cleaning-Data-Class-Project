@@ -1,0 +1,11 @@
+Raw data: 4 datasets
+1. training data containing measurements for subjects and activities
+2. data containing the subjects for each measurement in the training data
+3. data containing the activities for each measurment in the training data
+4. test data containing measurements for subjects and activities
+5. data containing the subjects for each measurement in the test data
+6. data containing the activities for each measurment in the test data
+7. data for each variable measured in the training and test data tables
+ 
+
+Processed data: One summarized table with the mean scores for all "mean" and "standard deviation" measurements, one mean score for each of the 30 subjects performing each of the six activities (
